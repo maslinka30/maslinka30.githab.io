@@ -198,13 +198,16 @@ header{
     height: auto;
 }
 
-.content_nav-desctop_button{
-    display: none;
-}
+ .content_nav-desktop_button{
+        display: none;
+    }
 
 
 
 @media (min-width: 768px) {
+     .content_nav-desktop_button{
+        display: none;
+    }
     .header_logo {
         position: relative;
         margin-left: 0;
@@ -225,7 +228,7 @@ header{
     .header_feedback {
         display: flex;
     }    
-    .header_item span {
+    .header_item  {
         display: none;
     }
     .content_section {
