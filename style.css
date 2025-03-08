@@ -228,9 +228,7 @@ header{
     .header_feedback {
         display: flex;
     }    
-    .header_item  {
-        display: none;
-    }
+  
     .content_section {
         display: flex;
         padding: 30px;
